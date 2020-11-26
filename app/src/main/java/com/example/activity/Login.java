@@ -16,7 +16,6 @@ import com.example.accountmanager.R;
 
 import cn.bmob.v3.exception.BmobException;
 import cn.bmob.v3.listener.SaveListener;
-import io.reactivex.disposables.Disposable;
 
 
 public class Login extends AppCompatActivity {
@@ -48,7 +47,7 @@ public class Login extends AppCompatActivity {
                             startActivity(new Intent(Login.this, MainActivity.class));
                             finish();
                         }else{
-                            Toast.makeText(Login.this,"登陆失败！"+e ,Toast.LENGTH_SHORT).show();
+                            Toast.makeText(Login.this,"登陆失败！" ,Toast.LENGTH_SHORT).show();
                         }
                     }
                 });

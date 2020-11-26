@@ -24,6 +24,7 @@
 
         <EditText
             android:id="@+id/username"
+            android:singleLine="true"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="请输入账号"/>
@@ -43,6 +44,7 @@
 
         <EditText
             android:id="@+id/password"
+            android:singleLine="true"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="请输入密码"/>
